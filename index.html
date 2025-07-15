@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>GoKLin Laundry Purwokerto | Cuci, Strika, Express 3 Jam & Harga Gokil!</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Open Sans', 'Montserrat', sans-serif;
+      background: linear-gradient(120deg, #f0fff0 0%, #e0f7fa 100%);
+      min-height: 100vh;
+      color: #232931;
+      overflow-x: hidden;
+    }
+    .badge-promo {
+      background: linear-gradient(90deg, #00bf72 0%, #0195bb 100%);
+      color: #fff;
+      font-weight: 900;
+      border-radius: 999px;
+      padding: 8px 22px;
+      font-size: 1rem;
+      display: inline-block;
+      box-shadow: 0 3px 16px #00bf7260;
+      animation: promo-pulse 1.2s infinite alternate;
+      letter-spacing: 1px;
+    }
+    @keyframes promo-pulse {
+      from { transform: scale(1);}
+      to { transform: scale(1.08);}
+    }
+    .floating-wa {
+      position: fixed;
+      right: 28px;
+      bottom: 28px;
+      background: #25d366;
+      width: 64px; height: 64px;
+      border-radius: 50%;
+      color: #fff;
+      font-size: 2.2rem;
+      display: flex; align-items: center; justify-content: center;
+      box-shadow: 0 4px 18px #25d36670;
+      z-index: 50;
+      transition: box-shadow .2s, transform .2s;
+    }
+    .floating-wa:hover {
+      box-shadow: 0 8px 32px #25d366b0;
+      transform: scale(1.13);
+      color: #232323;
+    }
+    .psycho-btn {
+      background: linear-gradient(90deg, #00bf72 0%, #0195bb 100%);
+      color: #fff;
+      border-radius: 999px;
+      padding: 15px 36px;
+      font-weight: bold;
+      font-size: 1.13rem;
+      box-shadow: 0 6px 18px 0 #00bf724d;
+      transition: all .15s cubic-bezier(.4,0,.2,1);
+    }
+    .psycho-btn:hover {
+      background: linear-gradient(90deg, #0195bb 0%, #00bf72 100%);
+      color: #fff;
+      transform: scale(1.05) translateY(-2px);
+      box-shadow: 0 8px 30px #00bf7290;
+    }
+    .section-card {
+      background: #fff;
+      border-radius: 1.4rem;
+      box-shadow: 0 8px 32px 0 #00bf7290;
+      border: 2px solid #00bf72;
+      margin-bottom: 32px;
+      padding: 2.5rem 1.5rem;
+    }
+    .price-box {
+      border: 2px solid #00bf72;
+      border-radius: 1.2rem;
+      background: #e6f9f2;
+      padding: 1.5rem 1.2rem;
+      margin-bottom: 23px;
+      box-shadow: 0 6px 24px #00bf7220;
+    }
+    .price-title {
+      color: #00bf72;
+      font-size: 1.35rem;
+      font-weight: bold;
+    }
+    .price-main {
+      font-size: 2.1rem;
+      font-weight: 900;
+      color: #0195bb;
+    }
+    .card-layanan {
+      background: #f9fff9;
+      border-radius: 1.2rem;
+      box-shadow: 0 4px 14px #00bf7220;
+      border: 1.5px solid #00bf72;
+      padding: 1.2rem;
+      margin-bottom: 18px;
+    }
+    .bg-psycho {
+      background: linear-gradient(120deg, #e0f7fa 60%, #c2fff1 100%);
+    }
+    .bonus-emas {
+      background: #fffbea;
+      border-radius: 1rem;
+      border: 1.5px solid #ffe066;
+      box-shadow: 0 3px 12px #ffe06640;
+      padding: 1.3rem 1rem;
+      margin: 16px 0;
+    }
+  </style>
+</head>
+<body>
+  <header class="pt-10 pb-10 text-center bg-psycho relative z-10">
+    <span class="badge-promo mt-6">PROMO GOKIL! Cuci Kilat 3 Jam <b>Rp30.000/kg</b> | Cuci Mahasiswa Mulai <b>Rp5.000/kg</b> | Strika Rp4.000/kg</span>
+    <h1 class="font-montserrat font-extrabold text-4xl sm:text-5xl mt-7 mb-4" style="color:#00bf72;letter-spacing:1px;">
+      GoKLin Laundry Purwokerto
+    </h1>
+    <p class="max-w-2xl mx-auto text-lg sm:text-2xl text-gray-800 mb-7">
+      <span class="font-bold text-cyan-700">Lagi sibuk kuliah, kerja, atau jadi ibu super?</span> Urusan cuci & strika langsung <b class="text-green-700">GoKLin-in aja!</b><br>
+      <span class="text-yellow-600 font-bold">Express 3 Jam, Gratis Antar Jemput, Ada Bonus Emas!</span>
+    </p>
+    <div class="flex flex-col sm:flex-row justify-center gap-4 mb-3">
+      <a href="https://wa.me/6285716561112" target="_blank" class="psycho-btn flex items-center justify-center">
+        <i class="fab fa-whatsapp mr-2"></i> Cuci/Strika Sekarang!
+      </a>
+      <a href="#paket" class="psycho-btn" style="background:linear-gradient(90deg,#ffe600 20%,#ffb700 100%);color:#1e293b;box-shadow:0 6px 18px #ffe60070;">
+        Lihat Daftar Harga
+      </a>
+    </div>
+    <div class="mt-6 mb-1 text-center">
+      <span class="inline-block px-4 py-2 rounded-lg bg-white shadow text-green-700 font-semibold text-lg">
+        <i class="fas fa-fire text-yellow-500"></i> <span class="font-bold">Cuci Express 3 JAM Rp30.000/kg | Strika Express 4 JAM Rp7.000/kg</span>
+      </span>
+    </div>
+    <div class="mt-2 text-xs text-gray-600">Alamat: <span class="font-bold text-blue-800">Tegalsari, Blok O No. 2</span> | WhatsApp: <a href="https://wa.me/6285716561112" class="text-cyan-700 font-bold underline">0857-1656-1112</a></div>
+  </header>
+
+  <main class="max-w-3xl mx-auto px-4 py-10">
+    <!-- Segmentasi Layanan -->
+    <section class="section-card text-center">
+      <h2 class="font-montserrat text-2xl font-bold mb-6 text-green-700">Layanan GOKIL untuk Semua</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-7">
+        <div class="card-layanan">
+          <div class="flex items-center justify-center mb-2">
+            <i class="fas fa-graduation-cap text-2xl text-cyan-700 mr-2"></i>
+            <span class="font-bold text-cyan-700">Mahasiswa & Anak Kos</span>
+          </div>
+          <p class="text-sm mb-1">Cuci <b>hemat 5rb/kg</b>, tanpa ribet, tinggal chat, baju siap kuliah/nongkrong. <span class="text-green-700">Gratis antar jemput!</span></p>
+        </div>
+        <div class="card-layanan">
+          <div class="flex items-center justify-center mb-2">
+            <i class="fas fa-baby-carriage text-2xl text-pink-600 mr-2"></i>
+            <span class="font-bold text-pink-600">Ibu Muda Sibuk</span>
+          </div>
+          <p class="text-sm mb-1">Setrika super rapi <b>4rb/kg</b>. Cuci sendiri boleh, setrika ke GoKLin. <span class="text-yellow-600 font-bold">Waktu lebih buat keluarga!</span></p>
+        </div>
+        <div class="card-layanan">
+          <div class="flex items-center justify-center mb-2">
+            <i class="fas fa-bolt text-2xl text-yellow-600 mr-2"></i>
+            <span class="font-bold text-yellow-600">Hotel & Express</span>
+          </div>
+          <p class="text-sm mb-1">Express 3 Jam <b>Rp30.000/kg</b> (khusus urgent/hotel). Ga ada waktu? Semua beres, ready dipakai!</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Paket & Harga -->
+    <section id="paket" class="section-card text-center">
+      <h2 class="font-montserrat text-2xl font-bold mb-7 text-cyan-700">Daftar Harga & Paket</h2>
+      <img src="image1" alt="Daftar Harga GoKLin Laundry" class="rounded-xl mx-auto mb-7 shadow-lg border border-blue-200">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-7 text-left text-base">
+        <div>
+          <div class="font-bold text-green-700 mb-2">Paket Cuci:</div>
+          <ul class="list-disc ml-7 mb-3">
+            <li>Reguler 3 Hari (Promo) – hemat, cocok untuk mahasiswa & keluarga</li>
+            <li>Kilat 1 Hari – Rp10.000/kg</li>
+            <li>Express 3 Jam – <span class="font-bold text-yellow-700">Rp30.000/kg</span> (super urgent, hotel, kerjaan dadakan)</li>
+          </ul>
+          <div class="font-bold text-green-700 mb-2">Setrika/Gosok Saja:</div>
+          <ul class="list-disc ml-7 mb-3">
+            <li>Kilat 1 Hari: Rp4.000/kg (min. 3kg), Rp5.000/kg (&lt; 3kg)</li>
+            <li>Express 4 Jam: Rp7.000/kg</li>
+          </ul>
+        </div>
+        <div>
+          <div class="font-bold text-green-700 mb-2">Cuci Satuan:</div>
+          <ul class="list-disc ml-7 mb-3">
+            <li>Bedcover Rp35.000 – Seprei/Selimut Rp40.000</li>
+            <li>Boneka Rp15.000 – Handuk Rp10.000</li>
+            <li>Sajadah Rp12.000 – Tas/Sepatu Rp35.000</li>
+          </ul>
+          <div class="font-bold text-yellow-700 mb-2">Bonus Emas:</div>
+          <ul class="list-disc ml-7 mb-3">
+            <li>Cuci 10x = Dapat 1 Emas (loyalty card)</li>
+            <li>Buyback Emas ke GoKLin: Rp5.000/pcs</li>
+          </ul>
+        </div>
+      </div>
+      <div class="mt-4 text-xs text-gray-500">Semua layanan bisa antar jemput. Area Purwokerto & sekitar.</div>
+    </section>
+
+    <!-- Kelebihan -->
+    <section class="section-card text-center">
+      <h2 class="font-montserrat text-2xl font-bold mb-5 text-green-700">Kenapa HARUS GoKLin?</h2>
+      <ul class="text-gray-700 text-base mx-auto max-w-xl text-left mb-3">
+        <li class="mb-2 flex items-center"><i class="fas fa-check-circle text-green-600 mr-2"></i> Harga transparan, <span class="font-bold text-cyan-700">tanpa biaya tersembunyi</span></li>
+        <li class="mb-2 flex items-center"><i class="fas fa-check-circle text-green-600 mr-2"></i> Gratis antar jemput & tidak ada minimum kilo</li>
+        <li class="mb-2 flex items-center"><i class="fas fa-check-circle text-green-600 mr-2"></i> Express 3 jam & 4 jam, solusi anti panik</li>
+        <li class="mb-2 flex items-center"><i class="fas fa-check-circle text-green-600 mr-2"></i> Setrika hotel class, parfum wangi, pakaian ibadah <span class="font-bold text-green-800">extra care</span></li>
+        <li class="mb-2 flex items-center"><i class="fas fa-check-circle text-green-600 mr-2"></i> Loyalty card dapat emas, bisa buyback!</li>
+      </ul>
+      <a href="https://wa.me/6285716561112" target="_blank" class="psycho-btn mt-4">Order Sekarang, Rasakan Bedanya!</a>
+    </section>
+
+    <!-- Bonus Emas -->
+    <section class="bonus-emas text-center">
+      <div class="flex items-center justify-center mb-2">
+        <i class="fas fa-coins text-yellow-500 text-2xl mr-3"></i>
+        <span class="text-lg font-bold text-yellow-700">Cuci 10x = Dapat 1 Emas!</span>
+      </div>
+      <p class="text-base text-gray-700 mb-1">Kumpulkan loyalty card, tukarkan emas setiap 10x cuci di GoKLin. Bisa buyback Rp5.000/pcs ke GoKLin!</p>
+    </section>
+
+    <!-- Testimoni -->
+    <section class="section-card text-center">
+      <h2 class="font-montserrat text-2xl font-bold mb-6 text-green-700">Testimoni Pelanggan</h2>
+      <div class="mb-4">
+        <blockquote class="italic text-gray-700 mb-3">"Cuci express 3 jam GoKLin beneran ngebut! Besok pagi rapat, sore order, malem baju udah bisa dipakai." <br><span class="font-bold text-yellow-700">- Pak Dwi, Pekerja Swasta</span></blockquote>
+        <blockquote class="italic text-gray-700 mb-3">"Strika GoKLin juara banget, gak pernah ragu titip baju anak-anak. Packing-nya wangi, hasilnya rapi!" <br><span class="font-bold text-pink-600">- Bu Rina, Ibu Rumah Tangga</span></blockquote>
+        <blockquote class="italic text-gray-700 mb-3">"Baru pindah kos, langsung jatuh cinta sama laundry ini. 5rb/kg, gratis jemput, murah dan bersih!" <br><span class="font-bold text-cyan-700">- Vina, Mahasiswi</span></blockquote>
+      </div>
+      <a href="https://wa.me/6285716561112" target="_blank" class="psycho-btn">Penasaran? Buktiin Sendiri!</a>
+    </section>
+
+    <!-- Lokasi & Map -->
+    <section class="section-card text-center">
+      <h2 class="font-montserrat text-2xl font-bold mb-4 text-cyan-700">Lokasi GoKLin Laundry</h2>
+      <div class="mb-2 text-gray-700 text-base">
+        <i class="fas fa-map-marker-alt text-green-600"></i> Tegalsari, Blok O No. 2, Purwokerto<br>
+        <span class="text-sm text-gray-500">Order WhatsApp: <a href="https://wa.me/6285716561112" class="text-cyan-700 font-bold underline">0857-1656-1112</a></span>
+      </div>
+      <div class="mt-4 rounded-lg overflow-hidden" style="box-shadow:0 4px 24px #00bf7240">
+        <iframe src="https://www.google.com/maps?q=-7.424278,109.234247&z=16&output=embed"
+          width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+      <div class="text-xs text-gray-400 mt-2">*Area antar jemput: Purwokerto & sekitarnya</div>
+    </section>
+  </main>
+
+  <footer class="py-8 text-center" style="background:#e0f7fa;">
+    <div class="flex justify-center gap-6 mb-2">
+      <a href="https://instagram.com/" target="_blank" class="text-pink-500 hover:text-pink-700 text-2xl"><i class="fab fa-instagram"></i></a>
+      <a href="https://facebook.com/" target="_blank" class="text-blue-500 hover:text-blue-700 text-2xl"><i class="fab fa-facebook"></i></a>
+      <a href="mailto:info@goklinlaundry.com" class="text-green-600 hover:text-green-800 text-2xl"><i class="fas fa-envelope"></i></a>
+    </div>
+    <div class="text-gray-700 text-xs">&copy; 2025 GoKLin Laundry. Laundry Kekinian Purwokerto.</div>
+  </footer>
+
+  <a href="https://wa.me/6285716561112" class="floating-wa" title="Chat WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+</body>
+</html>
